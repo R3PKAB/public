@@ -10,10 +10,10 @@
 	
   * result_sampleフォルダにそれぞれの処理後の結果がある
 
-  lab_quest.c - 2分木を用いたyes/noゲーム(fnct研究室当て)
+lab_quest.c - 2分木を用いたyes/noゲーム(fnct研究室当て)
 
-  fnct_fesフォルダ - fnctの学校祭に向けられて作られた各露店の人気と要望を調べるためのアンケート保存形式はcsvでデータベースには対応していない
+fnct_fesフォルダ - fnctの学校祭に向けられて作られた各露店の人気と要望を調べるためのアンケート保存形式はcsvでデータベースには対応していない
 	
-  * URLからshow_question.phpを指定するとcsvファイルのチェックができるのはデフォルト
+* URLからshow_question.phpを指定するとcsvファイルのチェックができるのはデフォルト
 
-  R3P_healthフォルダ - BMI計測,判定プログラム
+ R3P_healthフォルダ - BMI計測,判定プログラム
