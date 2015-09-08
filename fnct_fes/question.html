@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>高専祭アンケート</title>
+</head>
+<body>
+■アンケートにお応えください
+<br>
+<form action="check_question.php" method="POST">
+高専祭に来た日付を教えて下さい<br>
+<select name="date">
+	<option value="2014/10/17">2014/10/17
+	<option value="2014/10/18">2014/10/18
+	<option value="2014/10/19">2014/10/19
+</select>
+<br>
+性別を教えて下さい<br>
+<input type="radio" name="sex" value="男性"> 男性
+<input type="radio" name="sex" value="女性"> 女性
+<br><br>
+気に入った露店を教えてください(３つ)
+<input type="checkbox" name="shop[0]" value="露店A"> 露店A
+<input type="checkbox" name="shop[1]" value="露店B"> 露店B
+<input type="checkbox" name="shop[2]" value="露店C"> 露店C
+<input type="checkbox" name="shop[3]" value="露店D"> 露店D
+<input type="checkbox" name="shop[4]" value="露店E"> 露店E
+<br><br>
+高専祭について要望があれば教えて下さい
+<br>
+<textarea name="message" cols="40" rows="5"></textarea>
+<br><br>
+<input type="submit" value="アンケートを確認する">
+</form>
+</body>
+</html>
